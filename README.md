@@ -1,4 +1,4 @@
-Linux-IPC-Message-Queues
+[Linux-IPC-Message-Queues
 Linux IPC-Message Queues
 
 # AIM:
@@ -89,3 +89,4 @@ int main()
 # RESULT:
 The programs are executed successfully.
 ](https://github.com/Abisheik2005/Linux-IPC-Pipes.git)
+](https://github.com/Abisheik2005/Linux-IPC-Message-Queues.git)
