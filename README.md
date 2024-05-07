@@ -1,4 +1,4 @@
-[Linux-IPC-Message-Queues
+# Linux-IPC-Message-Queues
 Linux IPC-Message Queues
 
 # AIM:
@@ -20,9 +20,13 @@ Execute the C Program for the desired output.
 
 # PROGRAM:
 
+Developed by : ABISHEIK R
+Register Number : 212223040005
+
 ## C program that receives a message from message queue and display them
+
 writer.c
-```c
+~~~
 // C Program for Message Queue (Writer Process) 
 #include <stdio.h> 
 #include <sys/ipc.h> 
@@ -49,10 +53,11 @@ int main()
 	// display the message 
 	printf("Data send is : %s \n", message.mesg_text); 
 	return 0; 
-} 
-```
+}
+~~~
+
 reader.c
-```c
+~~~
 // C Program for Message Queue (Reader Process)
 #include <stdio.h>
 #include <sys/ipc.h>
@@ -82,11 +87,13 @@ int main()
 	msgctl(msgid, IPC_RMID, NULL);
 	return 0;
 }
-```
+~~~
+
 ## OUTPUT
-![Screenshot 2024-04-03 142401](https://github.com/2005Mukesh/Linux-IPC-Message-Queues/assets/138849308/4195d1d4-d41f-4124-9ec1-b456e14ff5b5)
+
+![322689185-a0a860cf-105e-41c7-9dad-00baaa58ff9c](https://github.com/04Varsha/Linux-IPC-Message-Queues/assets/149035374/92240eb9-ab6b-49fc-a962-e229e4d045ff)
+
+
 
 # RESULT:
 The programs are executed successfully.
-](https://github.com/Abisheik2005/Linux-IPC-Pipes.git)
-](https://github.com/Abisheik2005/Linux-IPC-Message-Queues.git)
